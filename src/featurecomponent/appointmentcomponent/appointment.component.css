@@ -1,0 +1,59 @@
+/*--------banner title---------- */
+.section-banner{
+  margin-top: 10px;
+}
+.contact-banner{
+  margin-top: -160px;
+  padding-left: 40px;
+}
+.contact-banner h4{
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.contact-banner li{
+  list-style-type: none;
+  color: aliceblue;
+  padding-top: 7px;
+  padding-left: 12px;
+}
+.contact-banner li a{
+  color: white;
+}
+
+/*--------section title---------- */
+.section-title h2{
+  margin-left: 400px;
+  color: black;
+  margin-top: -30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-title p{
+  padding-top: 7px;
+  margin-left: 280px;
+}
+.section-title button{
+  margin-top: 38px;
+  margin-left: 420px;
+}
+section hr{
+ margin-top: 60px;
+}
+
+/*--------form---------- */
+.contact{
+  border: 2px solid rgb(41, 78, 187);
+  border: none;
+  margin-bottom: 40px;
+}
+.contact-form{
+  margin-left: 250px;
+}
+.row label{
+  font-size: small;
+}
+.text-center button{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 80px;
+}

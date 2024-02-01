@@ -1,0 +1,61 @@
+.bg{
+    background-color:white;
+    margin: 0 0 0 -45px;
+    width: 100%;
+    height: 200px;
+}
+.head-line{
+    color: #373e4a;
+    font-family: sans-serif;
+   padding: 5px;
+}
+.menu-bar1{
+    list-style-type: none;
+
+}
+.admin{
+display: inline;
+position: relative;
+font-size: 20px;
+}
+.website{
+    
+display: inline;
+position: relative;
+font-size: 20px;
+}
+.logout{
+display: inline;
+position: relative;
+font-size: 20px;
+margin-left: 80px;
+}
+.person-icon{
+font-size: 25px;
+color: black;
+
+}
+.website-icon{
+   
+    margin-left: 1000px;
+    font-size: 25px;
+}
+.lagout-icon{
+    font-size: 25px;
+}
+.menu-bar1{
+    margin: 30px 0 0 0;
+    position: relative;
+    
+}
+.menu-bar1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #373e4a;
+    height: 1px;
+    width: 1400px;
+    padding: 1px;
+    margin-top: 30px;
+  
+}

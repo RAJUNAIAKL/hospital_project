@@ -1,0 +1,220 @@
+{
+  "adddepartment": [
+    {
+      "id": 1,
+      "name": "haks",
+      "description": "snnms",
+      "Isactive": true
+    },
+    {
+      "id": 2,
+      "name": "",
+      "description": "",
+      "Isactive": true
+    }
+  ],
+  "Doctor": [
+    {
+      "id": 1,
+      "Name": "Micheal pewd",
+      "Email": "doctor@email.com",
+      "Password": "8000",
+      "Address": "vsvcsvshjsb",
+      "Phone": "73874374378",
+      "Department": "2"
+    },
+    {
+      "id": 2,
+      "Name": "Santhosh Kumar",
+      "Email": "Santhosh@gmail.com",
+      "Password": "8000",
+      "Address": "karimanagar",
+      "Phone": "76348364836846",
+      "Department": "1"
+    },
+    {
+      "id": 3,
+      "Name": "Paloju venkatesh",
+      "Email": "venkatesh@gmail.com",
+      "Password": "8000",
+      "Address": "lb nagar",
+      "Phone": "73687643568",
+      "Department": "3"
+    },
+    {
+      "id": 4,
+      "Name": "",
+      "Email": "",
+      "Password": "",
+      "Address": "",
+      "Phone": "",
+      "Department": ""
+    },
+    {
+      "id": 5,
+      "Name": "",
+      "Email": "",
+      "Password": "",
+      "Address": "",
+      "Phone": "",
+      "Department": ""
+    }
+  ],
+  "patient": [
+    {
+      "id": 1,
+      "Name": "Tanvir HAsan",
+      "Email": "tanvir@ gmail.com",
+      "Password": "123456",
+      "Address": "karimnagr",
+      "Phone": "1234567",
+      "Sex": "1",
+      "Birthdate": "12/08/2022",
+      "Age": "21"
+    },
+    {
+      "id": 2,
+      "Name": "Tanvir HAsan",
+      "Email": "tanvir@ gmail.com",
+      "Password": "123456",
+      "Address": "karimnagr",
+      "Phone": "1234567",
+      "Sex": "1",
+      "Birthdate": "12/08/2022",
+      "Age": "21"
+    }
+  ],
+  "Nurse": [
+    {
+      "id": 1,
+      "Name": "jenelia",
+      "Email": "nurse@gmail.com",
+      "Address": "karimnagar",
+      "Phone": "12344567"
+    },
+    {
+      "id": 2,
+      "Name": "bjsbdjabsj",
+      "Email": "sndksbdksb",
+      "Password": "sndksnd",
+      "Address": "asdnksd",
+      "Phone": "asndksnd"
+    },
+    {
+      "id": 3,
+      "Name": "sdsdsd",
+      "Email": "asdsdasd",
+      "Password": "",
+      "Address": "asdsds",
+      "Phone": "sdsd"
+    },
+    {
+      "id": 4,
+      "Name": "",
+      "Email": "",
+      "Password": "",
+      "Address": "",
+      "Phone": ""
+    }
+  ],
+  "pharmacist": [
+    {
+      "id": 1,
+      "Name": "Jennifer lopez",
+      "Email": "pharmacist@example.com",
+      "Password": "",
+      "Address": "sbdjsbd",
+      "Phone": "1234578"
+    },
+    {
+      "id": 2,
+      "Name": "sdsd",
+      "Email": "asds",
+      "Password": "",
+      "Address": "sdsdssasds",
+      "Phone": "dsds"
+    }
+  ],
+  "laboratorist": [
+    {
+      "id": 1,
+      "Name": "Jonny Ive",
+      "Email": "Laboratorist",
+      "Password": "",
+      "Address": "karimnagar",
+      "Phone": "1234567"
+    },
+    {
+      "id": 2,
+      "Name": "",
+      "Email": "",
+      "Password": "",
+      "Address": "",
+      "Phone": ""
+    },
+    {
+      "id": 3,
+      "Name": "venkatesh",
+      "Email": "lab@gmail.com",
+      "Password": "1234",
+      "Address": "karminagr",
+      "Phone": "123456"
+    }
+  ],
+  "Accountant": [
+    {
+      "id": 1,
+      "Name": "John Doe",
+      "Email": "accontant@gmail.com",
+      "Password": "",
+      "Address": "karimangar",
+      "Phone": "12345567"
+    },
+    {
+      "id": 2,
+      "Name": "Harsha vardan",
+      "Email": "account@gmail.com",
+      "Password": "1234",
+      "Address": "chepapet",
+      "Phone": "1243333"
+    }
+  ],
+  "Appointment": [
+    {
+      "id": 1,
+      "Name": "",
+      "Email": "",
+      "Phone": "",
+      "Date": "",
+      "Department": "Select Deartment",
+      "doctor": "Select Doctor",
+      "message": ""
+    }
+  ],
+  "receptionist": [
+    {
+      "id": 1,
+      "Name": "Santhosh Kumar",
+      "Email": "receptionist@gmail.com",
+      "Password": "1234",
+      "Address": "karmanghtttt",
+      "Phone": "12345"
+    },
+    {
+      "id": 2,
+      "Name": "pavankumar",
+      "Email": "pavan@gmail.com",
+      "Password": "",
+      "Address": "lbnagar",
+      "Phone": "1234567"
+    },
+    {
+      "id": 3,
+      "Name": "",
+      "Email": "",
+      "Password": "",
+      "Address": "",
+      "Phone": ""
+    }
+  ]
+}

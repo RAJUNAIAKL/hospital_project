@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 2px solid black;
+    border: none;
+    max-height: 80px;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    color: black;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin: 0 15px;
+}
+/* li:active{
+    background-color: #555;
+} */
+.navbar{
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ol{
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 90px;
+    justify-content: space-between;
+}
+nav ol li{
+    display: inline-block;
+    padding: 10px;
+    color: darkslategrey
+}
+.navbar li:hover {
+    color: white;
+    background: #0087be;
+    padding: 10px;
+} 
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.menu{
+    margin-right: 30px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    padding-top: 10px;
+}
+.logo span{
+    padding-top: 20px;
+}
+
+@keyframes moveLine {
+    from {
+        margin-left: 1060px;
+    }
+    to {
+        margin-left: calc(1020px + 6cm);
+    }
+}
+
+
+/*--------------media query for menu------------------*/
+
+@media only screen and (max-width:600px){
+      
+    nav ol{
+        display: flex;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background: #333;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ol li{
+        display: block;
+        color: #fff;
+        margin-right:50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: left;
+        height: 25px;
+        width: 150px;
+        text-align: justify;
+        
+    }
+    .navbar li:hover {
+        background-color: transparent; /* Remove background color on hover */
+        color: inherit;
+    }
+}
+
+
+
+ 
+
+
+
+
+

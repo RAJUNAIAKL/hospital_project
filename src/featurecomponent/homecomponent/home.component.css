@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #706c81;
+    background-color: #fff;
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    cursor: default;
+}
+.row {
+    row-gap: 1.875rem;
+}
+h3{
+    color: black;
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+}  
+p {
+    margin-bottom: 0;
+}
+  
+ol li,
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+section{
+    margin-top: 40px;
+}
+.pt-5{
+    color: white;
+    padding-right: 50px;
+}
+.mt-4{
+    padding-right: 50px;
+}
+.icon{
+    font-weight: bold;
+}
+.time{
+    font-size: medium;
+    padding-top: 12px;
+    justify-content: space-between;
+}
+#phone{
+    background-color: #0087be;
+    color: white;
+    width: 100%;
+    padding: 45px;
+    height: 70vh;
+}
+@media (max-width:768px){
+    #phone{
+        height: auto;
+        
+    }
+
+}
+#phone h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#hours{
+    margin-top: -30px;
+}
+#contact{
+    margin-top: -5px;
+}
+a.btn{
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 50px;
+}
+#welcome{
+    background-color: #efeef0;
+    padding-top: 80px;
+    height: 80vh;
+}
+#world{
+    background-color: #0087be;
+    padding-top: 50px;
+    color: white;
+    height: 50vh;
+    margin-top: -45px;
+    
+} 
+#world h3{
+    color: white;
+}
+.fluid-paragraph{
+    max-width: 50%;
+    padding-top: 50px;
+    margin: auto;
+}
+.span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+#span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+  
+
+ /*---------------Departments------------ */
+ 
+
+.testimonial{
+    padding-top: 100px;
+    background-color: #f3f7f9;
+    height: 80vh;
+
+}
+.testimonial .col-lg-3{
+    text-align: center;
+    width: 33.333%;
+    padding: 5px 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0px rgba(5, 4, 4, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-lg-3 img{
+    margin-top: 20px;
+}
+.testimonial .col-lg-3:hover{
+       transform: translate(-10px);
+}
+.col-lg-3 p{
+      font-size: 12px;
+      margin: 12px 0;
+      color: #777;
+}
+.testimonial .col-lg-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+.small-container{
+    width: 80%;
+    margin: auto;
+} */
+/* 
+ /* ----------------brands------------- */
+/* .brands{
+    margin: 50px;
+}
+ .col-5{
+  width: 150px ;
+}
+.col-5 img{
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.col-5 img:hover{
+  filter: grayscale(0);
+
+} */
+
+/*------------doctor---------------*/
+ #doctor{
+    background-color: #f3f7f9;
+}
+#heart{
+    padding-top: 80px;
+}
+
+/*---------------appointment------------ */
+ #appoint{
+    height: 40vh;
+}
+button{
+    text-transform: uppercase;
+    margin: auto;
+    margin-left: 60px;
+}
+.touch{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(142, 74, 51);
+}
+
+
+.media{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+} 
+
+
+

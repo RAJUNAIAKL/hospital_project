@@ -1,0 +1,29 @@
+
+/*--------banner title---------- */
+.blog-banner{
+    margin-top: 10px;
+}
+.blog-banner{
+    margin-top: 20px;
+}
+.blog-banner h4{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: -180px;
+    padding-left: 50px;
+}
+.blog-banner li{
+    list-style-type: none;
+    color: aliceblue;
+    padding-top: 7px;
+    padding-left: 52px;
+}
+.row .col-lg-3-blog{
+    border: 1px solid blueviolet;
+    border: none;
+    width: 30%;
+    height: 40vh;
+    margin-left: 20px;
+    margin-right: 15px;
+}

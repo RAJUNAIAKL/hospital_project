@@ -1,0 +1,28 @@
+.editbutton{
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    background-color: #0087be;
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.deletebutton{
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    margin-left: 60px;
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    
+
+}
+.table{
+    width: 80%;
+    margin-left:150px;
+    margin-right: 80px;
+}

@@ -1,0 +1,86 @@
+/*------admin-title------*/
+.admin-title h4{
+    margin-top: 20px;
+    margin-left: 260px;
+    color: black;
+    font-family: sans-serif;
+}
+.admin-title .row h6{
+    margin-left: 60px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: small;
+}
+
+.admin-name{
+    margin-left: 50px;
+}
+.dashbord-body{
+    margin-top: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+    padding: 5px;
+}
+.tile-stats .tile-white{
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+}
+.tile-stats{
+    box-shadow: 0 0 20px rgba(0,0,0,0.11);
+    border-radius: 5px;
+    width: 80%;
+    height: 140px;
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.tile-stats.tile-white .num, .tile-stats.tile-white h3, .tile-stats.tile-white p {
+    color: #a0a2a6;
+}
+.tile-stats .num{
+    padding: 20px;
+    font-weight: bold;
+}
+.tile-stats .num  .tile-stats h3  .tile-stats p{
+    position: relative;
+    z-index: 5;
+    color: #ffffff;
+}
+.tile-stats .tile-white  .icon{
+    color: #f2f2f2;
+}
+.tile-stats .icon{
+    bottom: 30px;
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+}
+.tile-stats .icon li{
+    font-size: 45px;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    vertical-align: bottom;
+}
+.fa{
+    display: inline-block;
+    font-family: fontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.tile-stats h3{
+    font-size: 18px;
+    margin-top: 5px;
+    /* margin-left: -70px; */
+    
+}
+#admin-width{
+    margin-left: 10px;
+}
+
+
+
+

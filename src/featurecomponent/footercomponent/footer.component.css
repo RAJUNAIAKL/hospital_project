@@ -1,0 +1,48 @@
+.footer{
+    background: #111;
+    color: white;
+    font-size: 14px;
+    padding: 59px 0 28px;
+    height: 75vh;
+    width: 100%;
+}
+@media (max-width:768px){
+  .footer{
+     height: auto;
+     
+  }
+}
+ul li {
+  color: white;
+}
+.footer p{
+    color:white;
+
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-col-3 {
+  flex-basis: 12%;
+  text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+p strong{
+  padding-top: 15px;
+  padding-left: 80px;
+}
+.mt-3{
+  padding-left: 80px; 
+}
+#facebook{
+  padding-left: 5px;
+}
+#what{
+  padding-left: 6px;
+}
+
+

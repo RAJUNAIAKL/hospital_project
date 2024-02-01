@@ -1,0 +1,114 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addDepartmentForm {
+  background-color: #fff;
+  padding: 250px ;
+  width: 800px;
+  height: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styling as needed */
+.arrow-righticon{
+  font-size: 35px;
+  color: #818da1;
+  margin: 5px 0 0 0;
+}
+.department-heading{
+  font-size: 35px;
+  font-family: sans-serif;
+  margin: -40px 0 0 50px;
+  color: #818da1;
+}
+.adddepartment{
+  color: #ffffff;
+  background-color: #26a69a;
+  border-width: 0px;
+  height: 50px;
+  width:250px;
+  font-size: 23px;
+  font-family: sans-serif;
+  border-radius: 50px;
+  margin: 30px 0 0 1100px;
+}
+.plus-icon{
+  color: white;
+  font-size: 35px;
+}
+.add-department{
+  margin: -180px 0 0 -200px ;
+  font-size: 40px;
+}
+
+.name{
+ margin: 70px 0 0 -150px;
+  font-size: 25px;
+  color: #949494;
+  border-color: #949494;
+}
+.dept-name{
+ 
+  margin: 0 0 0 30px;
+  height: 40px;
+  width: 350px;
+  
+  border-radius: none;
+}
+
+.description{
+  color: #949494;
+  margin: 40px 0 0 -200px;
+  font-size: 25px;
+}
+
+.text-area{
+  margin: -33px 0 0 -50px;
+  height: 140px;
+  width: 350px;
+}
+
+.image-input{
+  font-size: 25px;
+  color: #949494;
+  margin: 40px 0 0 -210px;
+}
+.choose-file{
+  margin: 0 0 0 30px;
+}
+.save{
+  margin: 100px 0 0 -40px;
+  width: 100px;
+  height: 40px;
+  font-size: 23px;
+  font-family: sans-serif;
+  border-radius: 50px;
+  background-color: #66bb6a;
+border: none;
+color: #ffffff;
+}
+
+.close{
+  margin: 20px 0 200px;
+  font-size: 23px;
+  font-family: sans-serif;
+  border-radius: 50px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #818da1;
+}
+
+#account-width{
+  margin-left: 70px;
+  padding: 5px;
+}
